@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My first website</title>
+<meta charset="UTF-8"><!-- charset = dit au navigateur quel alphabet utiliser pour lire la page correctement -->
+<meta name="description" content="This is my first website"><!-- description = description of the page -->
+<meta name="keywords" content="HTML, CSS, JavaScript"><!-- keywords = keywords for search engines -->
+<meta name="author" content="Ichrak"><!-- author = author of the page -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- viewport = viewport settings for responsive design -->
+<meta http-equiv="refresh" content="30"><!-- refresh = refresh the page every 30 seconds -->
+</head>
+<!--_________________________________________________________________________-->
+<body style="background-color:rgb(211, 173, 227);"> <!--for background color -->
+<h1 style="color:rgb(142, 56, 192);">This is my first website</h1>
+<hr><!-- this is a comment --><!--for devide the page into sections -->
+<!--_________________________________________________________________________-->
+    <h2 style="color:rgb(48, 5, 58);">The links</h2>
+<!--for link   in the same window -->
+<a href="https://www.google.com" title="Go to Google"> go to google in the same window </a> </p><!--for link   in the same window -->
+<p>
+<a href="https://www.google.com" target="_blank" title="Go to Google in new window"> go to google in new window </a><!--for link   in the same window -->
+<hr>
+<!--_________________________________________________________________________-->
+<!--for image  the two dimensions -->
+<!-- alt = backup text shown if image fails to load, and read aloud by screen readers for blind users -->
+<h2 style="color:rgb(48, 5, 58);">The first image in my PC</h2>
+<img src="profile photo.jfif" alt="my photo" width="300" height="500" title="My Photo">
+<hr>
+<!--_________________________________________________________________________-->
+<h2 style="color:rgb(48, 5, 58);">The song</h2>
+<br>
+<!--for audio -->
+<audio src="sample audio.mp3" controls></audio>
+<br>
+<hr>
+<!--_________________________________________________________________________-->
+<h2 style="color:rgb(48, 5, 58);">The video</h2>
+<!--for video -->
+<video src="sample video.mp4" controls width="400" height="200" title="The video"></video>
+<hr>
+<!--_________________________________________________________________________-->
+<!--for text -->
+<h2 style="color:rgb(48, 5, 58);">The text</h2>
+<p>This is a simple paragraph.</p>
+<p>This is a <b>Bold</b> paragraph.</p>
+<p>This is a <i>Italic</i> paragraph.</p>
+<p>This is a <u>Underline</u> paragraph.</p>
+<p>This is a <s>Strikethrough</s> paragraph.</p>
+<p>This is a <mark>Highlighted</mark> paragraph.</p>
+<p>This is a <small>Smaller</small> paragraph.</p>
+<p>This is a <em>Emphasized</em> paragraph.</p>
+<p>This is a <sub>Subscript</sub> paragraph.</p>
+<p>This is a <sup>Superscript</sup> paragraph.</p>
+<p>This is a <big>Big</big> paragraph.</p>
+<p>This is a <ins>Inserted</ins> paragraph.</p>
+<p>This is a <del>Deleted</del> paragraph.</p>
+<hr>
+<!--_________________________________________________________________________-->
+<!--for lists -->
+<h2 style="color:rgb(48, 5, 58);">The lists</h2>
+<!--for ordered list -->
+<h4>The ordered lists</h4>
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ol>
+<!--for unordered list -->
+<h4>The unordered lists</h4>
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ul>
+<!--for definition list -->
+<h4>The definition lists</h4>
+<dl>
+  <dt>First term</dt>
+  <dd>The first definition</dd>
+  <dt>Second term</dt><!--dt means definition term -->
+  <dd>The second definition</dd><!--dd means definition description -->
+</dl>
+<hr>
+<!--_________________________________________________________________________-->
+<!--for tables -->
+<h2 style="color:rgb(48, 5, 58);">The tables</h2>
+<table bgcolor="purple" border="1" cellpadding="10" cellspacing="5"><!-- table = table element, bgcolor = background color, border = border width, cellpadding = cell padding, cellspacing = cell spacing -->
+    <tr bgcolor="lightgray"><!-- tr = table row -->
+        <th width="100">Sunday</th><!-- th = table header, bold + centered by default -->
+        <th width="100">Monday</th>
+        <th width="100">Tuesday</th>
+        <th width="100">Wednesday</th>
+        <th width="100">Thursday</th>
+        <th width="100">Friday</th>
+        <th width="100">Saturday</th>
+    </tr>
+    <tr bgcolor="lightgray"><!-- tr = table row -->
+        <td>1</td><!-- td = table data, a normal cell -->
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+</table>
+<hr>
+<!--_________________________________________________________________________-->
+<!-- To change the color of the sentence in a text -->
+<h2 style="color:rgb(48, 5, 58);">The colored text</h2>
+<div style="background-color:rgb(158, 25, 175);"> <!-- div = division element, background-color = background color  -->
+<p> <span style="color:rgb(171, 122, 181);">So this is my first website</span>.I hope i can make it better.</p>
+</div>
+<hr>
+<!--_________________________________________________________________________-->
+<!-- iframe = embeds another webpage inside this page, like a window showing external content (video, map, another site) -->
+<h2 style="color:rgb(48, 5, 58);">The iframe</h2>
+<iframe src="https://en.wikipedia.org/wiki/HTML" width="800" height="300" title="Wikipedia: HTML"></iframe>
+<hr>
+<!--_________________________________________________________________________-->
+<!--buttons-->
+<h2 style="color:rgb(48, 5, 58);">The buttons</h2>
+<a href="https://www.google.com" target="_blank" title="Go to Google in new window">
+<button>Go to Google</button>
+</a>
+<hr>
+<!--_________________________________________________________________________-->
+<!--Forms-->
+<h2 style="color:rgb(48, 5, 58);">The forms</h2>
+<form>  
+<!-- type="text" = basic single-line text input -->
+<label for="fname">First Name:</label><!-- label = text label for the input field -->
+<input type="text" id="fname" name="fname"><!--input = text input field -->
+<br><br>
+<label for="lname">Last Name:</label><!-- label = text label for the input field -->
+<input type="text" id="lname" name="lname"><!--input = text input field -->
+<br><br>
+<!-- type="password" = hides what the user types with dots -->
+<label for="password">Password:</label>
+<input type="password" id="password" name="password"><!--input = password input field -->
+<br><br>
+<!-- type="email" = checks the input looks like a valid email address -->
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"><!--input = email input field -->
+<br><br>
+<!-- type="number" = only allows numbers -->
+<label for="age">Age:</label>
+<input type="number" id="age" name="age"><!--input = number input field -->
+<br><br>
+<!-- type="phone" = only allows phone numbers -->
+<label for="phone">Phone:</label>
+<input type="tel" id="phone" name="phone"><!--input = phone input field -->
+<br><br>
+<!-- type="checkbox" = allows multiple selections -->
+<label for="newsletter">
+<input type="checkbox" id="newsletter" name="newsletter">
+Subscribe to newsletter
+</label>
+<br><br>
+<!-- type="reset" = clears all fields back to empty/default -->
+<button type="reset">Reset</button>
+<br><br>
+<!-- type="submit" = sends the form (needs backend later to actually process it) -->
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>
